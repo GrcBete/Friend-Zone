@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 17, 2021, 11:21:31 PM
+    Author     : GSSB
+*/
+
+body{
+    margin: 0;
+}
+.Sign-up-Page{
+  display: grid;
+  grid-gap: 10px;
+  row-gap: 1.5rem;
+  background-color: white;
+  padding: 1px;
+  margin: 0px;
+  border: none;
+}
+.Item{
+    position: sticky;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.Header{
+    position: sticky;  
+    grid-column: 1 / span 2 ;
+    grid-row: 1;
+    padding: 1px 0;
+    box-shadow: 0 0 0.7rem rgba(0,0,0,0.3);
+}
+.Header a{
+    padding: 0 20px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.Header a:last-child{
+    margin-left: 700px;
+}
+.Main-Form{
+  grid-column: 1 / span 2 ;
+  grid-row: 2 ;
+  padding: 1px;
+  height: 615px;
+}
+label{
+    font-size: 50px;
+}
+.LogT{
+    font-size: 20px;
+}
+input{
+    width: 75%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    box-sizing: border-box; 
+    color: white;
+}
+form{
+    width: 75%;
+    height: 350px;
+    margin: auto;
+    position: relative;
+}
+
+input[type=submit]{
+    background-color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 0;
+    width: 75%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+input[type=submit]:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
